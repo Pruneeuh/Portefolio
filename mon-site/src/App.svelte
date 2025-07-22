@@ -12,13 +12,9 @@
   </nav>
   <div class="content-layout">
     <aside class="sidebar">
-      <!-- Contenu de ta section à gauche, sous la navbar -->
-      <h2>À propos de moi</h2>
-      <p>Étudiante passionnée par l'ingénierie et l'international.</p>
-      <!-- Ajoute ici ce que tu veux -->
-       <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-          <img src={Prune} class="logo" alt="Prune" />
-        </a>
+      <a href="https://svelte.dev" target="_blank" rel="noreferrer">
+        <img src={Prune} class="image" alt="Prune" />
+      </a>
     </aside>
     <main>
       <div>
@@ -27,40 +23,34 @@
         </a>
       </div>
       <h1>Hello, I'm Prune Mamalet. </h1>
-      <h2>I'm an engineering student at the ENSEEIHT</h2>
+      <h2>I'm currently studying at ENSEEIHT in the digital sciences department.</h2>
 
       <p>
-        Check out <a href="https://github.com/Pruneeuh" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
+        Welcome on my e-portefolio !
       </p>
-
-      <p class="read-the-docs">
-        Click on the Vite and Svelte logos to learn more
-      </p>
-
-      <section class="contact-section">
-        <h2>Contact</h2>
-        <p>Get in touch with me:</p>
-        <div class="contact-cards">
-          <a class="contact-card" href="https://www.linkedin.com/in/prune-mamalet-689157318/" target="_blank" rel="noreferrer">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="icon" />
-            LinkedIn
-          </a>
-          <a class="contact-card" href="https://github.com/Pruneeuh" target="_blank" rel="noreferrer">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github" class="icon" />
-            Github
-          </a>
-          <a class="contact-card" href="mailto:prunemamalet31240@gmail.com">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Email" class="icon" />
-            tonmail@gmail.com
-          </a>
-          <a class="contact-card" href="/cv.pdf" target="_blank" rel="noreferrer">
-            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="CV" class="icon" />
-            Curriculum Vitae
-          </a>
-        </div>
-      </section>
     </main>
   </div>
+  <section class="contact-section">
+    <h2>You can contact me here : </h2>
+    <div class="contact-cards">
+      <a class="contact-card" href="https://www.linkedin.com/in/prune-mamalet-689157318/" target="_blank" rel="noreferrer">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="icon" />
+        LinkedIn
+      </a>
+      <a class="contact-card" href="https://github.com/Pruneeuh" target="_blank" rel="noreferrer">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github" class="icon" />
+        Github
+      </a>
+      <a class="contact-card" href="mailto:prunemamalet31240@gmail.com">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Email" class="icon" />
+        prunemamalet31240@gmail.com
+      </a>
+      <a class="contact-card" href="/cv.pdf" target="_blank" rel="noreferrer">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135789.png" alt="CV" class="icon" />
+        Curriculum Vitae
+      </a>
+    </div>
+  </section>
 </div>
 
 <style>
@@ -73,12 +63,20 @@
   .logo:hover {
     filter: drop-shadow(0 0 2em #646cffaa);
   }
+  .image {
+    width: 12em;
+    height: auto;
+  }
   .read-the-docs {
     color: #888;
   }
   .contact-section {
     text-align: center;
     margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .contact-cards {
     display: flex;
