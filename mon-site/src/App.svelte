@@ -1,28 +1,34 @@
 <script>
   import Router from 'svelte-spa-router'
   import Home from './Home.svelte'
-  import Engineering from './Engineering.svelte'
+  import EngineeringCourse from './Engineering_course.svelte'
+  import CivilEngagment from './Civil_engagment.svelte'
+  import CareerDevelopment from './Career_development.svelte';
+  import SustainableDevelopment from './Sustainable_development.svelte';
 
   const routes = {
     '/': Home,
-    '/engineering': Engineering,
+    '/engineering': EngineeringCourse,
+    '/civil-engagment': CivilEngagment,
+    '/career-development': CareerDevelopment,
+    '/sustainable-development': SustainableDevelopment,
     // Ajoute d'autres routes ici si besoin
-  }
+  } 
 </script>
 
 <div class="main-layout">
   <nav class="navbar">
     <a href="#/" class="nav-link">Accueil</a>
-    <a href="#/engineering" class="nav-link">Engineering</a>
-    <a href="#/international" class="nav-link">International</a>
-    <a href="#/civil-engagement" class="nav-link">Civil Engagement</a>
-    <a href="#/experience" class="nav-link">Experience</a>
+    <a href="#/engineering" class="nav-link">Engineering course</a>
+    <a href="#/civil-engagment" class="nav-link">Civil Engagment</a>
+    <a href="#/career-development" class="nav-link">Career Development</a>
+    <a href="#/sustainable-development" class="nav-link">Sustainable Development</a>
   </nav>
   <Router {routes} />
 </div>
 
 <style>
-  /* Ajoute dans App.svelte ou dans ton fichier global */
+  
 .main-layout {
   display: flex;
   flex-direction: column;

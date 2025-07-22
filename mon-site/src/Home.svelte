@@ -41,15 +41,6 @@
 </section>
 
 <style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
   .image {
     width: 12em;
     height: auto;
@@ -89,10 +80,7 @@
     box-shadow: 0 4px 16px #0002;
     background: #f5f5f5;
   }
-  .icon {
-    width: 32px;
-    height: 32px;
-  }
+  
   .main-layout {
     display: block;
   }
@@ -102,13 +90,7 @@
     gap: 2em;
     margin-top: 2em;
   }
-  .sidebar {
-    min-width: 220px;
-    background: #f7f7f7;
-    padding: 2em 1em;
-    border-radius: 1em;
-    box-shadow: 0 2px 8px #0001;
-  }
+ 
   main {
     flex: 1;
   }
