@@ -1,7 +1,6 @@
 <script>
   import LogoN7 from './assets/Logo-toulouse-inp-N7.png'
   import Prune from './assets/photo_Prune.jpg'
-  import Counter from './lib/Counter.svelte'
 </script>
 
 <div class="main-layout">
