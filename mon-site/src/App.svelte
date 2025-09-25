@@ -3,16 +3,15 @@
   import Home from './Home.svelte'
   import EngineeringCourse from './Engineering_course.svelte'
   import CivilEngagment from './Civil_engagment.svelte'
-  import CareerDevelopment from './Career_development.svelte';
+  import Experience from './Experience.svelte';
   import SustainableDevelopment from './Sustainable_development.svelte';
 
   const routes = {
     '/': Home,
     '/engineering': EngineeringCourse,
     '/civil-engagment': CivilEngagment,
-    '/career-development': CareerDevelopment,
+    '/experience': Experience,
     '/sustainable-development': SustainableDevelopment,
-    // Ajoute d'autres routes ici si besoin
   } 
 </script>
 
@@ -21,7 +20,7 @@
     <a href="#/" class="nav-link">Accueil</a>
     <a href="#/engineering" class="nav-link">Engineering course</a>
     <a href="#/civil-engagment" class="nav-link">Civil Engagment</a>
-    <a href="#/career-development" class="nav-link">Career Development</a>
+    <a href="#/experience" class="nav-link">Experience</a>
     <a href="#/sustainable-development" class="nav-link">Sustainable Development</a>
   </nav>
   <Router {routes} />
