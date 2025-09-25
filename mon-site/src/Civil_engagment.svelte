@@ -29,12 +29,12 @@ During this year I have done one intervention, with classmates from the INP and 
 <h3 style="text-align: left;">Civil engagment proposal team infographic : </h3>
 
 <div style="display: flex; justify-content: center; margin-top: 32px; margin-bottom: 32px;">
-  <iframe src="https://drive.google.com/file/d/1Db1K3D5UsIIecrKdbx-7Dzk6DttixEoH/preview" width="640" height="480" allow="autoplay"></iframe>
+  <iframe title="Civil Engagement" src="https://drive.google.com/file/d/1Db1K3D5UsIIecrKdbx-7Dzk6DttixEoH/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
 
 <h3 style="text-align: left;">Disability Awareness Day team project : </h3>
 
 <div style="display: flex; justify-content: center; margin-top: 32px; margin-bottom: 32px;">
-  <iframe src="https://drive.google.com/file/d/1MM5U6k0B7_VBmXRzdN736Gr7M7jhY5ZW/preview" width="640" height="480" allow="autoplay"></iframe>
+  <iframe title="Disability Awareness Day" src="https://drive.google.com/file/d/1MM5U6k0B7_VBmXRzdN736Gr7M7jhY5ZW/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
 

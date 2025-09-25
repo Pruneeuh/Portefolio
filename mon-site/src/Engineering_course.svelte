@@ -7,7 +7,7 @@
   des Télécommunications) in the digital sciences
    department. I am pursuing a diploma in computer science 
    and telecommunications engineering. 
-   Starting in my second year, I pursued a specialization in high-performance computing and big data.
+   Starting in my second year, I pursued a specialization in high-performance computing and big data. </p>
 <h3>2022  -  2024 - CLASSE PREPARATOIRE</h3>
 <p>I studied for two years in "Classe Préparatoire aux Grandes Ecoles" 
     at Bellevue High School in Toulouse. During my 

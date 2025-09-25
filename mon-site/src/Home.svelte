@@ -45,9 +45,6 @@
     width: 12em;
     height: auto;
   }
-  .read-the-docs {
-    color: #888;
-  }
   .contact-section {
     text-align: center;
     margin-top: 3em;
@@ -79,10 +76,6 @@
   .contact-card:hover {
     box-shadow: 0 4px 16px #0002;
     background: #f5f5f5;
-  }
-  
-  .main-layout {
-    display: block;
   }
   .content-layout {
     display: flex;
