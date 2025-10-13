@@ -1,10 +1,14 @@
 
 <h1>Civil Engagement</h1>
 <h2>Women7</h2> 
-<p style="text-align: left;"> 
-    Women7 is a project created at ENSEEIHT aimed at promoting engeenering studies for young girls in secondary school. During this year, we will organize two days for fifty girls who will visit our school to learn about the various specialization options in engineering. The main objective is to motivate more girls to follow a scientific path. Today and as I have observed during my studies, too few women dare to pursue scientific education and attend engeering school, particularly in computer science. <br/>
+<div style="display: flex; align-items: center; gap: 24px; margin-bottom: 16px;">
+  <img src="src/assets/Women7-photo-journee.jpg" alt="Photo Women7 journée" style="width: 350px; height: auto; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" />
+  <p style="text-align: left; text-indent: 2em; margin: 0;"> 
+  Women7 is a project created at ENSEEIHT aimed at promoting engeenering studies for young girls in secondary school. During this year, we will organize two days for fifty girls who will visit our school to learn about the various specialization options in engineering. The main objective is to motivate more girls to follow a scientific path. Today and as I have observed during my studies, too few women dare to pursue scientific education and attend engeering school, particularly in computer science. <br/> <br/>
 
-    I'm part of the logistics division at Women7. We are a groupe of 5/6 peoples in charge of choosing the different colleges that will participate this year (from all the requests that have been made). We are also in charge of managing the bus journeys to bring the schoolgirls here, finding accommodation for the nights when they stay in Toulouse and planning the necessary meals for the 2 days. We are also looking to recruit new students to join us next year. We have made a video to promote Women7 and are organising presentation meetings. </p>
+  <span style="display: block; text-indent: 2em;"> I'm part of the logistics division at Women7. We are a groupe of 5/6 peoples in charge of choosing the different colleges that will participate this year (from all the requests that have been made). We are also in charge of managing the bus journeys to bring the schoolgirls here, finding accommodation for the nights when they stay in Toulouse and planning the necessary meals for the 2 days. We are also looking to recruit new students to join us next year. We have made a video to promote Women7 and are organising presentation meetings.</span>
+  </p>
+</div>
 
 <div style="display: flex; justify-content: center; margin-top: 24px; margin-bottom: 40px;">
   <a href="https://www.enseeiht.fr/fr/l-enseeiht/women7.html" target="_blank" rel="noopener noreferrer">
